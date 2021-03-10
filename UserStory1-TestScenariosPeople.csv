@@ -1,0 +1,11 @@
+Scenario;SearchInputCharacter;SearchType;SearchTrigger;ExpectedSearchResults;ExpectedSearchedCharacterToContain;ExpectedGender;ExpectedBirthYear;ExpectedEyeColor;ExpectedSkinColor
+TC 01: A user attempts searching for a character that produces a single result clicking on search button ;Luke Skywalker;Character;Click;Single;Luke Skywalker;male;19BBY;blue;fair
+TC 02: A user attempts searching for a character that produces a single result clicking hitting on Enter;Luke Skywalker;Character;Enter;Single;Luke Skywalker;male;19BBY;blue;fair
+TC 03: A user attempts searching for a character clicking on search button ;Leia Organa;Character;Click;Single;Leia Organa;female;19BBY;brown;light
+TC 04: A user attempts searching for a character hitting on Enter;Leia Organa;Character;Enter;Single;Leia Organa;female;19BBY;brown;light
+TC 05: A user attempts searching for a character clicking on search button ;r2;Character;Click;Single;r2;n/a;33BBY;red;white, blue
+TC 06: A user attempts searching for a character hitting on Enter;r2;Character;Enter;Single;r2;n/a;33BBY;red;white, blue
+TC 07: A user attempts searching for a character that results in multiple search results on clicking the search button;Darth;Character;Click;Multiple;Darth;;;;
+TC 08: A user attempts searching for a character that results in multiple search results on hitting enter;Darth;Character;Enter;Multiple;Darth;;;;
+TC 09: A user attempts searching for a character that does NOT produce a result;!@;Character;Click;Not Found.;;;;;
+TC 09: A user attempts searching for a character that does NOT produce a result;!@;Character;Enter;Not Found.;;;;;

@@ -1,0 +1,206 @@
+{
+    "characters": [
+          {
+            "Scenario": "TC 01: A user attempts searching for a character that produces a single result clicking on search button",
+            "SearchInputCharacter": "Luke Skywalker",
+            "SearchType": "Character",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "Luke Skywalker",
+            "ExpectedGender": "male",
+            "ExpectedBirthYear": "19BBY",
+            "ExpectedEyeColor": "blue",
+            "ExpectedSkinColor": "fair"
+          },
+          {
+            "Scenario": "TC 02: A user attempts searching for a character that produces a single result clicking hitting on Enter",
+            "SearchInputCharacter": "Luke Skywalker",
+            "SearchType": "Character",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "Luke Skywalker",
+            "ExpectedGender": "male",
+            "ExpectedBirthYear": "19BBY",
+            "ExpectedEyeColor": "blue",
+            "ExpectedSkinColor": "fair"
+          },
+          {
+            "Scenario": "TC 03: A user attempts searching for a character clicking on search button",
+            "SearchInputCharacter": "Leia Organa",
+            "SearchType": "Character",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "Leia Organa",
+            "ExpectedGender": "female",
+            "ExpectedBirthYear": "19BBY",
+            "ExpectedEyeColor": "brown",
+            "ExpectedSkinColor": "light"
+          },
+          {
+            "Scenario": "TC 04: A user attempts searching for a character hitting on Enter",
+            "SearchInputCharacter": "Leia Organa",
+            "SearchType": "Character",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "Leia Organa",
+            "ExpectedGender": "female",
+            "ExpectedBirthYear": "19BBY",
+            "ExpectedEyeColor": "brown",
+            "ExpectedSkinColor": "light"
+          },
+          {
+            "Scenario": "TC 05: A user attempts searching for a character clicking on search button",
+            "SearchInputCharacter": "r2",
+            "SearchType": "Character",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "r2",
+            "ExpectedGender": "n/a",
+            "ExpectedBirthYear": "33BBY",
+            "ExpectedEyeColor": "red",
+            "ExpectedSkinColor": "white, blue"
+          },
+          {
+            "Scenario": "TC 06: A user attempts searching for a character hitting on Enter",
+            "SearchInputCharacter": "r2",
+            "SearchType": "Character",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Single",
+            "ExpectedSearchedCharacterToContain": "r2",
+            "ExpectedGender": "n/a",
+            "ExpectedBirthYear": "33BBY",
+            "ExpectedEyeColor": "red",
+            "ExpectedSkinColor": "white, blue"
+          },
+          {
+            "Scenario": "TC 07: A user attempts searching for a character that results in multiple search results on clicking the search button",
+            "SearchInputCharacter": "Darth",
+            "SearchType": "Character",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Multiple",
+            "ExpectedSearchedCharacterToContain": "Darth",
+            "ExpectedGender": "",
+            "ExpectedBirthYear": "",
+            "ExpectedEyeColor": "",
+            "ExpectedSkinColor": ""
+          },
+          {
+            "Scenario": "TC 08: A user attempts searching for a character that results in multiple search results on hitting enter",
+            "SearchInputCharacter": "Darth",
+            "SearchType": "Character",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Multiple",
+            "ExpectedSearchedCharacterToContain": "Darth",
+            "ExpectedGender": "",
+            "ExpectedBirthYear": "",
+            "ExpectedEyeColor": "",
+            "ExpectedSkinColor": ""
+          },
+          {
+            "Scenario": "TC 09: A user attempts searching for a character that does NOT produce a result",
+            "SearchInputCharacter": "!@",
+            "SearchType": "Character",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Not Found.",
+            "ExpectedSearchedCharacterToContain": "",
+            "ExpectedGender": "",
+            "ExpectedBirthYear": "",
+            "ExpectedEyeColor": "",
+            "ExpectedSkinColor": ""
+          },
+          {
+            "Scenario": "TC 09: A user attempts",
+            "SearchInputCharacter": "",
+            "SearchType": "",
+            "SearchTrigger": "",
+            "ExpectedSearchResults": "",
+            "ExpectedSearchedCharacterToContain": "",
+            "ExpectedGender": "",
+            "ExpectedBirthYear": "",
+            "ExpectedEyeColor": "",
+            "ExpectedSkinColor": ""
+          }
+        ],
+    "planets": [
+          {
+            "Scenario": "TC 01: A user attempts searching for a planet that produces a single result  clicking on search button",
+            "SearchInputCharacter": "Alderaan",
+            "SearchType": "Planet",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Single",
+            "ExpectedPopulation": 2000000000,
+            "ExpectedClimate": "temperate",
+            "ExpectedGravity": "1 standard"
+          },
+          {
+            "Scenario": "TC 02: A user attempts searching for a planet that produces a single result  hitting on Enter Key",
+            "SearchInputCharacter": "Alderaan",
+            "SearchType": "Planet",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Single",
+            "ExpectedPopulation": 2000000000,
+            "ExpectedClimate": "temperate",
+            "ExpectedGravity": "1 standard"
+          },
+          {
+            "Scenario": "TC 03: A user attems searching for a planet clicking on search button",
+            "SearchInputCharacter": "Hoth",
+            "SearchType": "Planet",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Single",
+            "ExpectedPopulation": "unknown",
+            "ExpectedClimate": "frozen",
+            "ExpectedGravity": "1.1 standard"
+          },
+          {
+            "Scenario": "TC 04: A user attems searching for a planet hitting on Enter",
+            "SearchInputCharacter": "Hoth",
+            "SearchType": "Planet",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Single",
+            "ExpectedPopulation": "unknown",
+            "ExpectedClimate": "frozen",
+            "ExpectedGravity": "1.1 standard"
+          },
+          {
+            "Scenario": "TC 07: A user attempts searching for a planet that results in multiple search results on search click",
+            "SearchInputCharacter": "Ho",
+            "SearchType": "Planet",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Multiple",
+            "ExpectedPopulation": "",
+            "ExpectedClimate": "",
+            "ExpectedGravity": ""
+          },
+          {
+            "Scenario": "TC 08: A user attempts searching for a planet that results in multiple search results on hitting Enter Key",
+            "SearchInputCharacter": "Ho",
+            "SearchType": "Planet",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Multiple",
+            "ExpectedPopulation": "",
+            "ExpectedClimate": "",
+            "ExpectedGravity": ""
+          },
+          {
+            "Scenario": "TC 09: A user attempts searching for a plant that does NOT produce a result clicking on search button",
+            "SearchInputCharacter": "!@",
+            "SearchType": "Planet",
+            "SearchTrigger": "Click",
+            "ExpectedSearchResults": "Not Found.",
+            "ExpectedPopulation": "",
+            "ExpectedClimate": "",
+            "ExpectedGravity": ""
+          },
+          {
+            "Scenario": "TC 09: A user attempts searching for a plant that does NOT produce a result hitting on Enter Key",
+            "SearchInputCharacter": "!@",
+            "SearchType": "Planet",
+            "SearchTrigger": "Enter",
+            "ExpectedSearchResults": "Not Found.",
+            "ExpectedPopulation": "",
+            "ExpectedClimate": "",
+            "ExpectedGravity": ""
+          }
+        ]
+}

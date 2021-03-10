@@ -1,0 +1,7 @@
+Scenario
+Should remove the previous planet search result when the form is cleared and the search button is clicked again
+Should remove the previous planet search result when the form is cleared and the ENTER key is hit again
+Should remove the previous people search result when the form is cleared and the search button is clicked again
+Should remove the previous people search result when the form is cleared and the ENTER key is hit again
+Should display Not Found When searching for people using the same search term as a full planet name that has previous search results on hiting the ENTER key
+Should display Not Found When searching for people using the same term as a full planet name that has previous search results on clicking the search button
