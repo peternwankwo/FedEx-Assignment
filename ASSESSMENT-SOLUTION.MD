@@ -23,7 +23,7 @@ Name: Peter Nwankwo
 A hybrid approach will be used to implement the tests comprising of liner and data-driven tests to validate the requirements mentioned. Related requirements are identified and grouped together as use stories, then the corresponding test scenarios is identified and test data is created.
 
 ## Assumptions
-The data generated from the backend we're hitting [SWAPI (Star Wars API)](https://swapi.dev/documentation) is considered expected data
+The data generated from the backend we're hitting [SWAPI (Star Wars API)](https://swapi.dev/documentation) is considered valid data
 
 ## User Story 1: As a Star Wars user I want to be able to search for a character/person so that I can see the details of the character/person
 -- Acceptance Criteria:
